@@ -12,3 +12,4 @@ G:\Other computers\My Computer\Documents\School\_High school\2ndGrade\2학기\�
 G:\Other computers\My Computer\Documents\School\_High school\2ndGrade\2학기\수행\기하\obj\Debug\net9.0\기하.pdb
 G:\Other computers\My Computer\Documents\School\_High school\2ndGrade\2학기\수행\기하\obj\Debug\net9.0\기하.genruntimeconfig.cache
 G:\Other computers\My Computer\Documents\School\_High school\2ndGrade\2학기\수행\기하\obj\Debug\net9.0\ref\기하.dll
+G:\Other computers\My Computer\Documents\School\_High school\2ndGrade\2학기\수행\기하\obj\Debug\net9.0\기하.sourcelink.json
