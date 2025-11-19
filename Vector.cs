@@ -84,6 +84,8 @@ namespace GeoVector
                 return new Vector2(a.x + b.x, a.y + b.y);
             }
 
+            // 실수배
+
             public static Vector2 operator *(double left, Vector2 right)
             {
                 return new Vector2(left * right.x, left * right.y);
@@ -115,7 +117,7 @@ namespace GeoVector
                 return a + -b;
             }
 
-            // 수직?
+            // 수직 operator
             public static bool operator ^(Vector2 a, Vector2 b)
             {
                 return (a*b == 0);
@@ -141,6 +143,16 @@ namespace GeoVector
             public static double Magnitude(Vector2 a, Vector2 b)
             {
                 return (b - a).Magnitude();
+            }
+
+            public static Vector2 InternalDivision(Vector2 a, Vector2 b, double leftRatio, double rightRatio)
+            {
+                return (a * rightRatio + b * leftRatio) / (leftRatio + rightRatio);
+            }
+
+            public static Vector2 ExternalDivision(Vector2 a, Vector2 b, double leftRatio, double rightRatio)
+            {
+                return (a * rightRatio - b * leftRatio) / (leftRatio - rightRatio);
             }
 
             // 
